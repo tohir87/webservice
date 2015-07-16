@@ -1,5 +1,5 @@
 <?php 
-
+header("Content-type: application/json");
 // process client url
 if ( !empty($_GET['id'])	){
 	$id = $_GET['id'];
